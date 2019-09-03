@@ -1,0 +1,39 @@
+<nav class="nav-side-menu">
+    <div class="brand">&nbsp;</div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+
+        <div class="menu-list">
+
+            <ul id="menu-content" class="menu-content collapse out">
+                <li data-toggle="collapse" data-target="#service" class="collapsed">
+                  <a href="#"><i class="fa fa-archive fa-lg" aria-hidden="true"></i> Citizen Stories <span class="caret"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="service">
+                  <li><a href="{{ '/meet-users' | prepend: site.baseurl }}">Meet Open Data Users</a></li>
+                </ul>
+
+                <li data-toggle="collapse" data-target="#products" class="collapsed">
+                  <a href="#"><i class="fa fa-book fa-lg" aria-hidden="true"></i> Citizen's Guide <span class="caret"></span></a>
+                </li>
+                <ul class="guide-sub-menu sub-menu collapse" id="products">
+                    <li><a href="{{ '/guide/1-open-data' | prepend: site.baseurl }}">1: What is Open Data and Open Licensing?</a></li>
+                    <li><a href="{{ '/guide/2-openness' | prepend: site.baseurl }}">2: Why Openness?</a></li>
+                    <li><a href="{{ '/guide/3-open-datas-use' | prepend: site.baseurl }}">3: What Can Open Data be Used For?</a></li>
+		    <li><a href="{{ '/guide/4-od-and-privacy' | prepend: site.baseurl }}">4: Open Data and Privacy
+			<li><a href="{{ '/guide/5-who-uses-open-data' | prepend: site.baseurl }}">5: Who Can Use Open Data?</a></li>
+			<li><a href="{{ '/guide/6-citizen-science' | prepend: site.baseurl }}">6: Citizen Science</a></li>
+                    <li><a href="{{ '/guide/7-wheres-open-data' | prepend: site.baseurl }}">7: Where Can Open Data be Found?</a></li>
+                    <li><a href="{{ '/guide/8-work-with-open-data' | prepend: site.baseurl }}">8: How Can I Work With Open Data?</a></li>
+                    <li><a href="{{ '/guide/references' | prepend: site.baseurl }}">References</a></li>
+                </ul>
+
+                <li>
+                  <a href="{{ '/resources' | prepend: site.baseurl }}"><i class="fa fa-link" aria-hidden="true"></i> Additional Resources</a>
+                </li>
+
+                <li>
+                  <a href="{{ '/about' | prepend: site.baseurl }}"><i class="fa fa-info-circle" aria-hidden="true"></i> About this Guide</a>
+                </li>
+            </ul>
+     </div>
+</nav>
